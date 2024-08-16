@@ -1,7 +1,14 @@
-# Tauri + React + Typescript
+# Find vanity address on solana
+GUI version using Tauri
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+# How to build application on your machine
+## npm
+```
+cd solana_vanity_address/
+npm run tauri build
+```
+## yarn
+```
+cd solana_vanity_address/
+yarn tauri build
+```
